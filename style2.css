@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+  }
+  #child{
+    width:150px;
+    height:215px;
+    background-color: #C996A4;
+    border-radius: 10px;
+    text-align: center;
+    overflow:hidden;
+  }
+  img{
+    width:150px;
+   height:215px;
+   object-fit: cover;
+   object-position: center;
+  border-radius: 10px;
+  }
+  #child i{
+  color:#ffff;
+  position: absolute;
+  top:50%;
+  /* right:50%; */
+  font-size: 40px;
+  transform:translate(-250%,-50%) scale(0);
+  opacity:1;
+  transition: transform ease 0.3s;
+  }
